@@ -1,0 +1,7 @@
+interface:
+  display_name: "打印遗嘱整套材料"
+  short_description: "为个人或夫妻打印遗嘱生成完整签署流程及证据留存材料"
+  default_prompt: "使用 $china-printed-will-package 根据客户家庭、财产和遗愿生成一整套打印遗嘱办理材料。"
+
+policy:
+  allow_implicit_invocation: true
