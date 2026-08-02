@@ -1,6 +1,6 @@
 # China Printed Will Package
 
-This repository is a private archive of a legacy Codex skill for preparing printed-will document packages under Mainland Chinese law.
+This repository contains a Codex skill for preparing printed-will document packages under Mainland Chinese law.
 
 ## Overview
 
@@ -41,12 +41,12 @@ china-printed-will-package/
 └── maintenance/
 ```
 
-The reusable templates are kept under `assets/templates/`. Intake mapping, legal rules, and output requirements are kept under `references/`.
+The reusable templates are kept under assets/templates/. Intake mapping, legal rules, and output requirements are kept under references/.
 
 ## Status
 
-This is a legacy archive. It is preserved for reference and version history and is not part of the current active Codex skill set.
+This repository contains a focused Codex skill for professional reference and use in Mainland Chinese printed-will matters.
 
 ## Use and responsibility
 
-This repository is a professional drafting aid, not a substitute for legal advice, current-law verification, client instructions, or the lawyer's review of the actual signing process. The repository does not include an open-source license and is intended for private professional use.
+This repository is a professional drafting aid, not a substitute for legal advice, current-law verification, client instructions, or the lawyer's review of the actual signing process. Review the applicable law and the actual signing process before relying on any output.
