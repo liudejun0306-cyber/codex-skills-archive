@@ -1,0 +1,7 @@
+interface:
+  display_name: "中文表达风格"
+  short_description: "规范中文表达、标点、短句和全文衔接"
+  default_prompt: "将这份中文文本修改得自然、具体、简洁，保留我最新版本和已确认内容，只修存在问题的部分，并检查全文是否重复、矛盾或逻辑断裂。"
+
+policy:
+  allow_implicit_invocation: true
