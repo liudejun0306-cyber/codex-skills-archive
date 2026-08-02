@@ -1,0 +1,7 @@
+interface:
+  display_name: "中国刑事辩护实务"
+  short_description: "区分阅卷前后，审查定罪证据并形成刑事辩护文书"
+  default_prompt: "先确认刑事案件阶段和是否阅卷。阅卷前以会见和有限材料形成审慎的阶段性意见；阅卷后按犯罪构成、控方证据、供述矛盾、程序合法性和量刑情节完整审查，并结合本地知识库形成无罪、罪轻或量刑辩护文书。"
+
+policy:
+  allow_implicit_invocation: true
