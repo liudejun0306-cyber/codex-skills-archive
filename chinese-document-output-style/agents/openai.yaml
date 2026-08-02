@@ -1,0 +1,7 @@
+interface:
+  display_name: "中文文档输出样式"
+  short_description: "统一中文文档格式并保留既有文件排版"
+  default_prompt: "按我的中文文档格式输出或修改文件。修改既有文件时保留原页面、字体、编号、表格和分页；新建文档默认使用宋体、三号标题、小四正文、固定22磅行距、段前0.5行和首行缩进2字符。"
+
+policy:
+  allow_implicit_invocation: true
