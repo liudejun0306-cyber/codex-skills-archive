@@ -1,0 +1,7 @@
+interface:
+  display_name: "拆分书籍"
+  short_description: "按目录、标题或标记拆分书籍和期刊 PDF"
+  default_prompt: "使用 $split-books 将这本书、期刊或案例汇编 PDF 按文章、章节或目录标题拆分成单独 PDF。"
+
+policy:
+  allow_implicit_invocation: true
