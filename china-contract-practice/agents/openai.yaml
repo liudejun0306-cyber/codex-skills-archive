@@ -1,0 +1,7 @@
+interface:
+  display_name: "中国合同起草、审查与修改"
+  short_description: "围绕真实交易起草、审查、修改和重构合同"
+  default_prompt: "根据客户实际经营内容、交易目的和特别要求起草或修改合同。商事合同优先写清交易条款、履行流程、付款、验收、变更、解除和违约。修改以最新合同为底稿，局部修改优先，完成后通读全文并按需生成保留格式的 Word。"
+
+policy:
+  allow_implicit_invocation: true
