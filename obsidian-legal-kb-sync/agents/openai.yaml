@@ -1,0 +1,7 @@
+interface:
+  display_name: "法律专题与知识库整理"
+  short_description: "摘录本地法律资料并沉淀专题、证据清单和来源"
+  default_prompt: "围绕法律问题检索本地知识库，扩展直接相关子问题，选取5—10个有效来源作较完整原文摘录，形成分析结论、证据清单和可追溯来源索引。具体案件材料和进展请使用案件工作台同步技能。"
+
+policy:
+  allow_implicit_invocation: true
