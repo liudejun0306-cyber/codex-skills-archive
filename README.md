@@ -1,52 +1,51 @@
-# China Printed Will Package
+# Mainland China Legal Practice Skills for Codex
 
-This repository contains a Codex skill for preparing printed-will document packages under Mainland Chinese law.
+This repository is a collection of modular Codex skills for legal work under Mainland Chinese law. It is centered on legal practice and reusable legal knowledge management, with additional skills for related workflows.
 
-## Overview
+## Core skills
 
-The skill helps a lawyer turn client-provided family, property, and testamentary information into a structured, editable package for a printed will. It is designed for non-contentious legal work and assumes that the lawyer provides consultation and drafting support rather than acting as a will witness by default.
+### `legal-practice` — civil and commercial legal practice
 
-## Included materials
+The main litigation and enforcement skill. It supports case-material review, legal-relationship and claim analysis, evidence evaluation, amount calculations, litigation strategy, pleadings, legal opinions, evidence catalogs, and evidence bundles.
 
-The package can route and prepare the following materials:
+### `obsidian-legal-kb-sync` — reusable legal knowledge-base research
 
-1. An operation guide for the signing process;
-2. A personal printed will or separate wills for a married couple;
-3. A lawyer work record that does not falsely describe witnessing;
-4. A signing-site record;
-5. A property schedule;
-6. A family-member information survey;
-7. A risk notice;
-8. Witness declarations;
-9. A signing-video script; and
-10. An evidence index and, where needed, a pending-information list.
+A research and knowledge-management skill for reusable legal topics. It organizes statutes, cases, books, articles, judicial rules, source excerpts, conclusions, and traceable indexes into an Obsidian legal knowledge base. It is separate from the case-specific workspace skill.
 
-## Safeguards
+## Other skills in the collection
 
-- Missing information must remain an explicit placeholder rather than an invented identity number, property number, account number, amount, date, or event.
-- The will-maker's capacity, property rights, beneficiary arrangements, witness qualifications, and signing formalities must be checked before signing.
-- A lawyer's drafting or consultation record must not be rewritten as a witnessing record unless the lawyer actually acted as a qualified witness.
-- Video recording supports proof of the process; it does not replace the statutory signature, witnessing, or date requirements.
-- A couple's materials are treated as two separate wills unless the client expressly requests another legally supportable structure.
-- Current statutes, judicial interpretations, local registration requirements, and special-asset rules must be verified before professional use.
+- `criminal-defense-practice` — criminal-defense workflows, from meetings and pre-review opinions to dossier review, defense strategy, sentencing, defense submissions, and appeals.
+- `china-contract-practice` — transaction-focused contract drafting, review, revision, and reconstruction, including core terms such as scope, price, delivery, acceptance, settlement, termination, and breach.
+- `obsidian-case-workspace-sync` — case-specific synchronization of facts, timelines, evidence, calculations, litigation or defense strategy, documents, and later developments into an Obsidian case workspace.
+- `chinese-writing-style` — drafting, rewriting, and final review for clear, concise Mainland Chinese legal and professional writing.
+- `chinese-document-output-style` — structure and output standards for formal Chinese documents, including editable Word/DOCX and PDF deliverables.
+- `split-books` — splitting books, journals, case collections, and multi-article or scanned PDFs by article, chapter, case, or entry.
+- `china-printed-will-package` — a focused workflow for preparing document packages for wills made in printed form under Mainland Chinese law. It is one skill in this collection, not the scope of the whole repository.
+
+## About the printed-will terminology
+
+In this repository, Chinese **打印遗嘱** is described as a **printed-form will** or **a will made in printed form**. This means a will prepared in printed form; it does not mean a printed product, a publication, or a commercial printing item.
 
 ## Repository layout
 
+Each top-level directory is an independent skill and normally contains its `SKILL.md`, optional agent configuration, and supporting modules, references, templates, or scripts.
+
 ```text
+china-contract-practice/
+chinese-document-output-style/
+chinese-writing-style/
+criminal-defense-practice/
+legal-practice/
+obsidian-case-workspace-sync/
+obsidian-legal-kb-sync/
+split-books/
 china-printed-will-package/
-├── SKILL.md
-├── agents/openai.yaml
-├── assets/templates/
-├── references/
-└── maintenance/
 ```
 
-The reusable templates are kept under assets/templates/. Intake mapping, legal rules, and output requirements are kept under references/.
+## Intended use
 
-## Status
+These skills are professional workflow aids for research, drafting, review, and document organization. They are not a substitute for legal advice, current-law verification, client instructions, or review of the facts and evidence in the matter at hand. Verify applicable statutes, judicial interpretations, local requirements, and other authoritative sources before professional use.
 
-This repository contains a focused Codex skill for professional reference and use in Mainland Chinese printed-will matters.
+## License
 
-## Use and responsibility
-
-This repository is a professional drafting aid, not a substitute for legal advice, current-law verification, client instructions, or the lawyer's review of the actual signing process. Review the applicable law and the actual signing process before relying on any output.
+Released under the MIT License. See [LICENSE](LICENSE).
