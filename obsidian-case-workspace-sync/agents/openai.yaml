@@ -1,0 +1,7 @@
+interface:
+  display_name: "Obsidian 案件工作台同步"
+  short_description: "增量登记案件材料、分析、文书和进展，避免重复读取"
+  default_prompt: "把当前案件已读取的材料、事实、证据、金额、诉讼或辩护方案和已形成文书同步到 Obsidian 案件工作台。首次建立完整档案，后续只处理新增或变化文件，并记录形成、收到、读取和同步时间。"
+
+policy:
+  allow_implicit_invocation: true
